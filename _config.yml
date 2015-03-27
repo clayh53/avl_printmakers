@@ -1,0 +1,40 @@
+# Site settings
+title: Asheville Printmakers
+email: your-email@domain.com
+baseurl: https://clayh53.github.io/avl_printmakers
+description: "Asheville Printmakers are an energetic group of artists expressing ideas through the medium of the print."
+
+# Contact form: comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: f4f4f4 #80B3FF
+  secondary: aaa #2c3e50 #FD6E8A
+  secondary-dark: d3d3d3 #A2122F
+
+# Footer settings
+footer:
+  copyright: Asheville Printmakers
+  location: Asheville, North Carolina 
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/ashevilleprintmakers
+  - title: facebook
+    url:
+  
+# Postal address (add as many lines as necessary)
+address:
+  - line: Random PO Box
+  - line: Asheville, NC 28802
+
+# Credits content
+credits: ''
+
+# Build settings
+markdown: kramdown
+permalink: pretty
