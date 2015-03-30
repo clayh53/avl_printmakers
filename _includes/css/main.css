@@ -3,13 +3,19 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
+/* Load up the LibreCaslon font (http://www.impallari.com/projects/update/94) */
+@font-face {
+  font-family: LibreCaslon;
+  src: url({{site.baseurl}}/fonts/LibreCaslonText-Regular.ttf"); 
+}
 body {
     overflow-x: hidden;
 }
 
 p {
     font-size: 20px;
+    font-family: "LibreCaslon", Georgia, Times, serif;
+    line-height: 1.5;
 }
 
 p.small {
