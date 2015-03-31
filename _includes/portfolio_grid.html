@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Our work</h2>
+                    <h2>Our members</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -17,8 +17,11 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
+
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+
                         </a>
+                    <p class="portfolio-grid-caption">{{post.title}}</p>    
                     </div>
                 {% endfor %}
             </div>

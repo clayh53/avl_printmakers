@@ -6,10 +6,12 @@
 /* Load up the LibreCaslon font (http://www.impallari.com/projects/update/94) */
 @font-face {
   font-family: LibreCaslon;
-  src: url({{site.baseurl}}/fonts/LibreCaslonText-Regular.ttf"); 
+  src: url("{{site.baseurl}}/fonts/LibreCaslonText-Regular.ttf"); 
 }
 body {
     overflow-x: hidden;
+    color: #333;
+    background-color: #f4f4f4;
 }
 
 p {
@@ -40,7 +42,9 @@ h6 {
     text-transform: uppercase;
     font-family: "futura-pt", "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
+    color: #333;
 }
+
 
 hr.star-light,
 hr.star-primary {
@@ -106,14 +110,14 @@ header .intro-text .name {
     text-transform: uppercase;
     font-family: "futura-pt", "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
-    font-weight: bold
+    font-weight: bold;
+
 }
-/*
-div.intro-text span.name{
-    font-family: "futura-pt";
-    color: red;
+
+div.intro-text {
+    
 }
-*/
+
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
@@ -263,15 +267,24 @@ section.success {
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
     margin-top: -12px;
+    color: #333;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
     margin: 0;
+    color: #333;
 }
 
 #portfolio * {
     z-index: 2;
+}
+.footer-col p, .portfolio-grid-caption{
+    font-size: 1.4em;
+    text-align: center;
+    margin: 1em auto;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    f
 }
 
 @media(min-width:767px) {
@@ -423,6 +436,7 @@ footer .footer-below {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    background-color: #f4f4f4;
 }
 
 .portfolio-modal .modal-content h2 {
