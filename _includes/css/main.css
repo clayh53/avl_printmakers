@@ -4,9 +4,15 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 /* Load up the LibreCaslon font (http://www.impallari.com/projects/update/94) */
+/* temporarily disable libreCaslon
 @font-face {
   font-family: LibreCaslon;
   src: url("{{site.baseurl}}/fonts/LibreCaslonText-Regular.ttf"); 
+}
+*/
+@font-face {
+  font-family: MojaveBold;
+  src: url("{{site.baseurl}}/fonts/Mohave-Bold.otf"); 
 }
 body {
     overflow-x: hidden;
@@ -18,7 +24,7 @@ section#about{
 }
 p {
     font-size: 20px;
-    font-family: "LibreCaslon", Georgia, Times, serif;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;;
     line-height: 1.5;
 }
 
@@ -42,9 +48,10 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: "futura-pt", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "MojaveBold", "futura-pt", "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     color: #333;
+    letter-spacing: 0.025em;
 }
 
 
@@ -110,7 +117,8 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: "futura-pt", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "MojaveBold","futura-pt", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: 0.05em;
     font-size: 2em;
     font-weight: bold;
 
@@ -156,7 +164,8 @@ header .intro-text .skills {
         transition: all .3s;
     }
     a.navbar-brand{
-        font-family: "futura-pt"!important;
+        font-family: 'MojaveBold', "futura-pt"!important;
+        letter-spacing: 0.05em;
         text-transform: uppercase!important;
     }
     .navbar-fixed-top.navbar-shrink {
