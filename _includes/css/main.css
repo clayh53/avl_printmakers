@@ -19,9 +19,10 @@ body {
     color: #333;
     background-color: #f4f4f4;
 }
-section#about{
+section#about, section#resources{
     background-color: #e7e7e7;
 }
+
 p {
     font-size: 20px;
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;;
@@ -31,6 +32,10 @@ p {
 p.small {
     font-size: 16px;
 }
+ul.resource-list{
+    list-style-type: none;
+}
+
 
 a,
 a:hover,
@@ -51,7 +56,7 @@ h6 {
     font-family: "MojaveBold", "futura-pt", "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     color: #333;
-    letter-spacing: 0.025em;
+    letter-spacing: 0.035em;
 }
 
 

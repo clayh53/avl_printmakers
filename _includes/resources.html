@@ -1,0 +1,21 @@
+<section id="resources">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Some online printing resources</h2>
+                    <hr class="star-primary">
+                </div>
+            	<ul class="resource-list">
+	                {% for resource in site.resources %}
+	                	<li>    
+	                        <a href="{{resource.url}}" class="portfolio-link" data-toggle="modal">
+	                            <h3>{{resource.title}}</h3>  	
+		                    </a>
+		                    <p>{{resource.description}}</p>    
+	                    </li>
+	                {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </section>
+

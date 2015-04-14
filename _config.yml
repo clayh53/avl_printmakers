@@ -36,3 +36,34 @@ credits: 'site hosted by Github pages'
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Online resource links
+
+resources:
+  - title: "McClain's Printmaking Supplies"
+    description: 'Supplies and tools for relief printmaking'
+    url: http://www.imcclains.com
+  - title: 'Graphic Chemical & Ink Co.'
+    description: 'Supplies and tools for all types of printing'
+    url: http://www.graphicchemical.com
+  - title: "Conrad Machine Co."
+    description: 'Fine Art Etching, Monotype, Combination and Lithography Presses and printmaking supplies'
+    url: http://www.conradmachine.com    
+  - title: "Takach Press"
+    description: 'Fine Art Printing Presses, Print Studio Equipment and printmaking supplies'
+    url: http://www.takachpress.com        
+  - title: Art Boards
+    description: 'Source for woodblocks for wood engraving'
+    url: http://www.art-boards.com
+  - title: Hiromi Paper
+    description: 'Source for Japanese and other Asian paper and supplies'
+    url: http://store.hiromipaper.com 
+  - title: New York Central Art Supply
+    description: 'Complete Art supply resource'
+    url: http://www.nycentralart.com
+  - title: Cape Fear Press
+    description: 'Source for some specialized etching supplies. US source for Phoenix photogravure tissue and Izote etching inks'
+    url: http://www.capefearpress.com/order.html           
+  - title: Jerry's Artarama
+    description: 'Comprehensive online source for discounted art supplies'
+    url: http://www.jerrysartarama.com
