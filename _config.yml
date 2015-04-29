@@ -17,13 +17,15 @@ color:
 footer:
   copyright: Asheville Printmakers
   location: Our location 
-  social: lonely social link
+  social: we're social!
   credits: random fact
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: http://twitter.com/avl_printmakers
+  - title: facebook
+    url: https://www.facebook.com/groups/1482129858744150/
   
 # Postal address (add as many lines as necessary)
 address:
