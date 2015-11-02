@@ -14,6 +14,13 @@
   font-family: MojaveBold;
   src: url("{{site.baseurl}}/fonts/Mohave-Bold.otf"); 
 }
+.btn{
+    color: #333;
+    background-color: #e7e7e7;
+}
+.floating-label-form-group.controls input#name.form-control{
+    color: #333;
+}
 body {
     overflow-x: hidden;
     color: #333;
