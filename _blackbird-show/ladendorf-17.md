@@ -1,5 +1,5 @@
 ---
-title: 
+title: 'Carl Sandburg, Consider Rainbows'
 price: 75
 layout: default
 modal-id: 17

@@ -1,5 +1,5 @@
 ---
-title: 
+title: Noisy Garden
 price: 65
 layout: default
 modal-id: 16
