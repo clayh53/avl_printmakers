@@ -19,7 +19,11 @@
                 {% for entry in site.blackbird-show %}
                     <div class="col-sm-4 portfolio-item">
                             <img src="{{entry.image_location}}" class="img-responsive" alt="{{ entry.title }}">
-                    <p class="portfolio-grid-caption"><em>{{entry.title}}</em></p>
+                    {%if entry.title == '' %} 
+                        <p class="portfolio-grid-caption">&hellip;</p>
+                    {% else %}
+                        <p class="portfolio-grid-caption"><em>{{entry.title}}</em></p>
+                    {% endif %}
                     <p class="portfolio-grid-caption small">{{entry.artist}}</p>
                     <p class="portfolio-grid-caption small">{{entry.process}}</p>
                     <br><br>    

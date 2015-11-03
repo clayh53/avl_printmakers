@@ -1,5 +1,5 @@
 ---
-title: 
+title: ''
 price:
 layout: default
 modal-id: 5 
