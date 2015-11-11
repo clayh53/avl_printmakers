@@ -9,11 +9,12 @@
   font-family: LibreCaslon;
   src: url("{{site.baseurl}}/fonts/LibreCaslonText-Regular.ttf"); 
 }
-*/
+/*
 @font-face {
   font-family: MojaveBold;
   src: url("{{site.baseurl}}/fonts/Mohave-Bold.otf"); 
-}
+} */
+
 .btn{
     color: #333;
     background-color: #e7e7e7;
@@ -30,6 +31,9 @@ section#about, section#resources{
     background-color: #e7e7e7;
 }
 
+section#next-meeting {
+    background-color: #ededed
+}
 p {
     font-size: 20px;
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;;
@@ -60,8 +64,8 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: "MojaveBold", "futura-pt", "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    font-family: "Lato", "futura-pt", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
     color: #333;
     letter-spacing: 0.035em;
 }
@@ -129,8 +133,8 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: "MojaveBold","futura-pt", "Helvetica Neue",Helvetica,Arial,sans-serif;
-    letter-spacing: 0.05em;
+    font-family: "Lato","futura-pt", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: 0em;
     font-size: 2em;
     font-weight: bold;
 
@@ -176,7 +180,7 @@ header .intro-text .skills {
         transition: all .3s;
     }
     a.navbar-brand{
-        font-family: 'MojaveBold', "futura-pt"!important;
+        font-family: 'Lato', "futura-pt"!important;
         letter-spacing: 0.05em;
         text-transform: uppercase!important;
     }
