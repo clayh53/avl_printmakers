@@ -22,17 +22,30 @@
 .floating-label-form-group.controls input#name.form-control{
     color: #333;
 }
+input.form-control, textarea.form-control{ color: #444;  }
 body {
     overflow-x: hidden;
     color: #333;
-    background-color: #f4f4f4;
+    background-color: #f4f4f4; 
 }
-section#about, section#resources{
+section#about, section#resources, section#contact{
     background-color: #e7e7e7;
 }
 
 section#next-meeting {
     background-color: #ededed
+}
+#submit-success{
+    background: pink;
+    height: 300px;
+    width: 100%;
+    color: darken($text-color, 25%);
+}
+#submit-success h1{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
 }
 p {
     font-size: 20px;
