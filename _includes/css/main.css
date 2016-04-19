@@ -15,6 +15,29 @@
   src: url("{{site.baseurl}}/fonts/Mohave-Bold.otf"); 
 } */
 
+/* Customization by WCH */
+figure, figure img {
+  width: 100%;
+  
+  padding: 10px;
+  text-align: center; /* Set text align to center */
+  float: left;
+  /* margin: 10px; */
+}
+figcaption {
+  display: inline-block; /* Set this element to inline-block */
+  text-align: left; /* Set text align to left */
+}
+p a{
+    color: #333;
+}
+p a:hover{
+    color: #aa2211;
+    text-decoration: none;
+}
+
+/* End customization */
+
 .btn{
     color: #333;
     background-color: #e7e7e7;
@@ -28,7 +51,7 @@ body {
     color: #333;
     background-color: #f4f4f4; 
 }
-section#about, section#resources, section#contact{
+section#about, section#resources, section#contactm, header#header, section#portfolio{
     background-color: #e7e7e7;
 }
 
@@ -67,7 +90,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    /* color: #{{ site.color.primary }}; */
+    color: #{{ site.color.primary }};
 }
 
 h1,
