@@ -35,6 +35,11 @@ p a:hover{
     color: #aa2211;
     text-decoration: none;
 }
+.smaller{
+    font-size: 80%;
+    vertical-align: 5%;
+    font-weight: normal;
+}
 
 /* End customization */
 
