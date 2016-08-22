@@ -121,7 +121,7 @@ hr.star-primary {
     border-top: solid 2px;
     text-align: center;
 }
-
+p.left{ text-align: left;} /*added to fix weird alignment for paragraphs within*/
 hr.star-light:after,
 hr.star-primary:after {
     
