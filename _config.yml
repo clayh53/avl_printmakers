@@ -44,6 +44,9 @@ credits: 'site hosted by Github pages'
 markdown: kramdown
 permalink: pretty
 
+# Google Analytics Tracking ID
+google_analytics: UA-91333619-1
+
 # Online resource links
 
 resources:
